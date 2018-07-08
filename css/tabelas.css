@@ -1,0 +1,70 @@
+* {padding: 0; margin: 0;}
+
+body{background-color:#99ff66; background-image:url("../images/bg.jpg");}
+article{border:black 1px solid; width: 200px; height: 500px; margin: 20px; float: left; background-color: #ffccff; overflow:auto;}
+aside{border:black 1px solid; float: right; width: 200px; margin: 20px; background-color: #99ccff;}
+section{border:black 1px solid; margin: 30px 250px 20px 250px;}
+footer{background-color: black; bottom: 0; width: 100%; position: fixed;}
+
+table{border:blue 1px solid;}
+#franca{border:black 1px solid;	height:100px; width:160px;}
+
+h1{font-family: verdana; text-transform:uppercase; margin: 20px; position: absolute; top:0px;}
+
+nav{margin: 15px 250px 10px 250px;}
+
+#stargrail{margin: 20px;}
+
+#conteudo{overflow:auto; padding:10px; background-color:#99ff66;}
+
+#menu ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+#menu li {
+    float: left;
+}
+
+#menu li a, .dropbtn {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+#menu li a:hover, .dropdown:hover .dropbtn {
+    background-color: hotpink;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+#menu .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+#menu .dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
