@@ -1,0 +1,94 @@
+﻿<!doctype html>
+
+<html lang="pt-br">
+
+<head>
+	<meta charset="utf-8"/>
+	<link rel="stylesheet" href="css/index.css" media="all">
+    <link rel="stylesheet" href="css/modal.css" media="all">
+	<link rel="icon" href="favicon.png">
+	<title>|| Projeto X || Início</title>
+</head>
+
+<body>
+	<header>
+	<h1><div><span style="color:#ff0000;">P</span><span style="color:#ff4000;">r</span><span style="color:#ff7f00;">o</span><span style="color:#ffff00;">j</span><span style="color:#80ff00;">e</span><span style="color:#00ff00;">t</span><span style="color:#00ffff;">o</span><span style="color:#0080ff;"> </span><span style="color:#0000ff;">X</span></div></h1>
+	<nav id="menu">
+		<ul>
+            <li><a href="index.html">Início</a></li>
+			<li><a href="fun.html">Fun</a></li>
+            <li><a href="tabelas.html">Tabelas</a></li>
+            <li><a href="android.html">Android</a></li>
+            <li class="dropdown">
+                <a href="javascript:void(0)" class="dropbtn">Web Dev</a>
+                <div class="dropdown-content">
+                    <a href="#">CSS</a>
+                    <a href="#">JavaScript</a>
+                    <a href="#">PHP</a>
+                    <a href="#">Bootstrap</a>
+                    <a href="#">AngularJS</a>
+                    <a href="https://aspnetboilerplate.com/">ASP.NET Boilerplate</a>
+                </div>
+            </li>
+            <li><a href="contato.html">Contato</a></li>
+            <li><a href="vip.html">VIP</a></li>
+		</ul>
+	</nav>
+	</header>
+	<article>
+		World Chalice related
+		<ol>
+			<li>Item1</li>
+			<li>Item2</li>
+			<li>Item3</li>
+			<li>Item4</li>
+			<li>Item5</li>
+		</ol>
+		<img src="images/guardragon.png" width="200px" alt="hoje não"/>
+        <img src="images/c2.jpg" width="200px" alt="hoje não"/>
+	</article>
+	<aside>
+		Tutorial
+		<img src="images/gakkou gurashi.jpg" width="200px" alt="hoje não"/>
+        <img src="images/furry.jpg" width="200px" alt="hoje não"/>
+	</aside>       
+	<section>
+		<div id="conteudo">    
+            <h2>Modal Login Form</h2>
+            <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+            <div id="id01" class="modal">
+
+              <form class="modal-content animate" action="/action_page.php">
+                <div class="imgcontainer">
+                  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+                  <img src="images/kunagisa.png" alt="Avatar" class="avatar">
+                </div>
+
+                <div class="container">
+                  <label for="uname"><b>Username</b></label>
+                  <input type="text" placeholder="Enter Username" name="uname" required>
+                  <label for="psw"><b>Password</b></label>
+                  <input type="password" placeholder="Enter Password" name="psw" required>
+                  <button type="submit">Login</button>
+                  <label>
+                    <input type="checkbox" checked="checked" name="remember"> Lembrar
+                  </label>
+                </div>
+                <div class="container" style="background-color:#f1f1f1">
+                  <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancelar</button>
+                  <span class="psw">Forgot <a href="#">password?</a></span>
+                </div>
+              </form>
+            </div>            
+		</div>        
+	</section>
+	<footer>
+		<p align="right" style="color:red">Desenvolvido por João, 2017.
+		<a href="#" target="_top">topo</a>
+		</p>
+	</footer>
+    <script type="text/javascript" src="js/teste.js"></script>
+</body>
+
+</html>
