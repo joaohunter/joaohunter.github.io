@@ -11,9 +11,18 @@ h1{font-family: verdana; text-transform:uppercase; margin: 20px; position: absol
 
 nav{margin: 15px 250px 10px 250px;}
 
-#conteudo{overflow:auto; padding:10px; background-color:rebeccapurple; }
+#conteudo{color:white; overflow:auto; padding:10px; background-color:black; }
 
 .octocat{margin:10px; border:0}
+
+input[type=text], input[type=password] {
+    height: 23px;
+}
+
+button{
+    height: 28px;
+    width: 50px;
+}
 
 #menu ul {
     list-style-type: none;

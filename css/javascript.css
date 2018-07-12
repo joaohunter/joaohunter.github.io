@@ -1,21 +1,19 @@
 * {padding: 0; margin: 0;}
 
-body{background-color:#99ff66; background-image:url("../images/bg.jpg");}
-article{border:black 1px solid; width: 200px; height: 500px; margin: 20px; float: left; background-color: #ffccff; overflow:auto;}
+body{background-color:#99ff66; background-image:url("../img/bg.jpg");}
+article{border:black 1px solid; width: 200px; margin: 20px; float: left; background-color: #ffccff; overflow:auto;}
 aside{border:black 1px solid; float: right; width: 200px; margin: 20px; background-color: #99ccff;}
 section{border:black 1px solid; margin: 30px 250px 20px 250px;}
 footer{background-color: black; bottom: 0; width: 100%; position: fixed;}
-
-table{border:blue 1px solid;}
-#franca{border:black 1px solid;	height:100px; width:160px;}
+#info{color: green;}
 
 h1{font-family: verdana; text-transform:uppercase; margin: 20px; position: absolute; top:0px;}
 
 nav{margin: 15px 250px 10px 250px;}
 
-#stargrail{margin: 20px;}
+#conteudo{overflow:auto; padding:10px; background-color:orange; }
 
-#conteudo{overflow:auto; padding:10px; background-color:#99ff66;}
+.octocat{margin:10px; border:0}
 
 #menu ul {
     list-style-type: none;
